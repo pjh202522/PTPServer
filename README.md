@@ -1,0 +1,2 @@
+# PTPServer
+一种基于Java提供的Socket实现的通信服务器，支持独创的PTP应用层通信传输协议
