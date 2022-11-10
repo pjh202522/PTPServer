@@ -1,0 +1,17 @@
+jedis:
+  pool:
+    address: 127.0.0.1
+    port: 6379
+    maxIdle: 8
+    maxTotal: 16
+    timeout: 900000
+    testOnBorrow: true
+
+database:
+  pool:
+    driver: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lec_tele?useUnicode=true&charaterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: admin
+    maxActive: 20
+    initialSize: 10
